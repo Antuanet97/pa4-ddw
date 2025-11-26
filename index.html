@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MichiStore - Accesorios para Gatos</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <!-- Contenedor principal con Grid Areas -->
+    <div class="container">
+
+        <!-- Header -->
+        <header class="header">
+            <h1 class="titulo-animado">🐱 MichiStore</h1>
+        </header>
+
+        <!-- Banner animado con jQuery -->
+        <section class="banner">
+            <div class="slider">
+                <img src="img/banner1.jpg" alt="Gato con collar elegante" class="slide active">
+                <img src="img/banner2.jpg" alt="Gato jugando con juguete" class="slide">
+                <img src="img/banner3.jpg" alt="Gato en cama cómoda" class="slide">
+            </div>
+            <p class="subtitulo-animado">Los mejores accesorios para tu gato</p>
+        </section>
+
+        <!-- Contenido principal -->
+        <main class="main">
+            <h2>Nuestros Productos</h2>
+
+            <!-- Tres columnas con CSS -->
+            <div class="tres-columnas">
+                <div class="columna">
+                    <div class="producto">
+                        <img src="img/collar.jpg" alt="Collar para gato" class="producto-img">
+                        <h3>🎀 Collares</h3>
+                        <p>Collares elegantes y cómodos para tu minino. Disponibles en diferentes colores y tamaños.</p>
+                        <p class="precio">Desde S/ 25.00</p>
+                    </div>
+                </div>
+
+                <div class="columna">
+                    <div class="producto">
+                        <img src="img/juguete.jpg" alt="Juguete para gato" class="producto-img">
+                        <h3>🪶 Juguetes</h3>
+                        <p>Juguetes interactivos que mantendrán a tu gato activo y feliz durante horas.</p>
+                        <p class="precio">Desde S/ 15.00</p>
+                    </div>
+                </div>
+
+                <div class="columna">
+                    <div class="producto">
+                        <img src="img/cama.jpg" alt="Cama para gato" class="producto-img">
+                        <h3>🛏️ Camas</h3>
+                        <p>Camas suaves y acogedoras para que tu gato descanse como se merece.</p>
+                        <p class="precio">Desde S/ 80.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formulario -->
+            <section class="formulario-seccion">
+                <h2>¿Quieres recibir nuestras ofertas?</h2>
+                <p>Suscríbete a nuestro boletín</p>
+
+                <form class="formulario">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                    </div>
+
+                    <button type="submit" class="btn-enviar">Suscribirse</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- Footer con información y enlaces -->
+        <footer class="footer">
+            <div class="footer-contenido">
+                <div class="footer-info">
+                    <h3>MichiStore</h3>
+                    <p>📍 Dirección: Calle Felina 123, Lima, Perú</p>
+                    <p>📞 Teléfono: (01) 234-5678</p>
+                    <p>✉️ Email: contacto@michistore.com</p>
+                </div>
+
+                <div class="footer-redes">
+                    <h3>Síguenos</h3>
+                    <div class="redes-sociales">
+                        <a href="https://www.facebook.com" class="red-social" title="Facebook">
+                            <i class="fab fa-facebook"></i> Facebook
+                        </a>
+                        <a href="https://www.instagram.com" class="red-social" title="Instagram">
+                            <i class="fab fa-instagram"></i> Instagram
+                        </a>
+                        <a href="https://www.twitter.com" class="red-social" title="Twitter">
+                            <i class="fab fa-twitter"></i> Twitter
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="copyright">© 2025 MichiStore - Todos los derechos reservados</p>
+        </footer>
+
+    </div>
+
+    <!-- Scripts jQuery -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>
